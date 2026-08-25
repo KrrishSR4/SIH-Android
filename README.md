@@ -6,8 +6,7 @@ incident reporting, and geo-tagged field data collection.
 ## Tech Stack
 
 - React Native + Expo
-- TypeScript
-- Expo Location — GPS / Geo-tagging
+- Expo Location — GPS 
 - Expo Camera — Photos / Media
 - SQLite — Offline Storage
 - Go API Gateway
@@ -33,3 +32,22 @@ flowchart TD
 
     DB --> W[Web Dashboard]
     AI --> W
+```
+
+## Core Features
+
+- Geo-tagged inspections
+- Safety and incident reporting
+- Photo and media capture
+- Offline-first field operations
+- Compliance data collection
+- Secure API integration
+- AI-assisted risk analysis
+
+## Data Flow
+
+Field User → Android App → Go API Gateway → FastAPI → Database / AI → Web Dashboard
+
+## SIH 2026
+
+Problem Statement: 26024 — AI-Based Smart Governance and Compliance Monitoring System for Coal Mine
