@@ -33,6 +33,24 @@ flowchart TD
     DB --> W[Web Dashboard]
     AI --> W
 ```
+## Git Commit Instruction
+
+For healthy version control, clean history, easy tracking, and minimizing merge conflicts, every team member must follow the commit naming convention below.
+
+### Commit Format
+
+```bash
+git commit -m "<Name> - <short description>"
+```
+```
+git commit -m "Ankit - added AI model testing"
+git commit -m "Bhawna - added GIS monitoring UI"
+git commit -m "Krish - added Go API Gateway"
+git commit -m "Nitish - added FastAPI risk scoring endpoint"
+git commit -m "Ruchi - implemented anomaly detection model"
+git commit -m "Samal - added compliance dashboard"
+
+```
 
 ## Core Features
 
